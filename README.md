@@ -1,6 +1,6 @@
 # Memory Game Project
 
-###Technologies used: 
+### Technologies used: 
 * HTML
 * CSS
 * JS
