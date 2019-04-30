@@ -7,5 +7,5 @@
 * DOM
 
 
-[Play Game](https://parvathirpai.github.io/MemoryGame/) 
+[Play Game](https://parvathirpai.github.io/MemoryGame/):  https://parvathirpai.github.io/MemoryGame/
 ![MemoryGame](img/memoryGame.JPG)
