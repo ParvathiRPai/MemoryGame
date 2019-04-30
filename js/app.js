@@ -46,6 +46,9 @@ function shuffle(array) {
 
 
 // shuffels cards when page loads
+window.onload = function() {
+    document.getElementById("my_audio").play();
+}
 document.body.onload = startGame();
 
 
@@ -251,3 +254,19 @@ infoBtn.addEventListener('click', info);
     12+ Moves = Poor...  \
     ');
   }
+
+
+  function sound(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+  this.sound.setAttribute("preload", "auto");
+  this.sound.setAttribute("controls", "none");
+  this.sound.style.display = "none";
+  document.body.appendChild(this.sound);
+  this.play = function(){
+    this.sound.play();
+  }
+  this.stop = function(){
+    this.sound.pause();
+  }
+}
